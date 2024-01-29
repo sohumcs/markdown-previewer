@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Markdown Previewer Description:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created a Markdown Previewer using React, HTML, CSS, JavaScript, marked, and Prism.js. This web application allows users to write and instantly preview their Markdown-formatted text. Here's a breakdown of the key elements:
 
-## Available Scripts
+Technologies I Used:
 
-In the project directory, you can run:
+React: I employed this JavaScript library for building the user interface and managing components.
+HTML and CSS: Standard web technologies were used to structure the page layout and style the user interface.
+JavaScript: This language was crucial for implementing dynamic behavior and interactivity in the application.
+marked: I utilized this library to parse and render Markdown content, enabling users to write in plain text while seeing a live, formatted preview.
+Prism.js: This lightweight syntax highlighter improved the visual appeal and readability of code snippets within the Markdown content.
+Components:
 
-### `npm start`
+Editor Component: Users can input their Markdown content here. Any changes trigger real-time updates in the Previewer component.
+Previewer Component: This section renders the parsed HTML output of the Markdown content. It dynamically updates as users type in the Editor.
+Markdown Parsing and Rendering:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I relied on the marked library to convert user-entered Markdown content into HTML, handling the parsing and rendering.
+Code Syntax Highlighting:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Integrated Prism.js into the Markdown Previewer to provide syntax highlighting for code snippets, enhancing the visual appeal and readability of the content.
+Styling:
 
-### `npm test`
+Custom CSS styling was applied to improve the visual appeal, including layout design, typography, and additional styling for a polished user interface.
+Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Live Preview: Users experience real-time rendering of Markdown content as they type in the Editor, providing immediate feedback on the formatted output.
+Code Syntax Highlighting: I implemented Prism.js to enhance the readability of code snippets through syntax highlighting.
+External Links: I ensured that external links open in a new tab for a seamless browsing experience.
+Deployment:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I designed the application to be easily deployed to GitHub Pages, allowing users to access and utilize the Markdown Previewer through a publicly accessible URL.
+In summary, the Markdown Previewer I built offers users a dynamic and visually appealing platform for writing, previewing, and formatting Markdown content, with the added benefit of code syntax highlighting using Prism.js.
